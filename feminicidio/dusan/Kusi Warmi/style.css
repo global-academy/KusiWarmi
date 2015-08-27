@@ -1,0 +1,98 @@
+ body {
+	background-color: #FF7C84;
+
+}
+.kusiwarmi {
+	padding: 15px 150px;
+	text-align: center;
+
+}
+p {
+	color: #411715;
+	text-align: center;
+	text-align: justify;
+}
+
+th	{
+	color: #731A4E;
+	border: solid 
+#9B567E 2px;
+	background-color: pink;
+}
+table {
+	margin-left: 100px;
+	margin-right: 100px;
+	border: solid black 2px;
+	text-align: center;
+}
+h3 {
+	color: #63096C;
+	text-align: center;
+}
+td {
+	color: 
+#58157B;
+	background-color: pink;
+	width: 200px;
+	border: solid 
+#9B567E 2px;
+	}
+
+td>span{
+	color: 
+#5F5964;
+}
+div.enlace {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.enlace a{
+	color: #63096C;
+	display: inline-block;
+	padding: 1em;
+	background-color: #F4719C;
+	text-decoration: none;
+	border: 2px solid black;
+
+}
+.enlace a:hover{
+	background-color: #E08E79;
+	color: #F1D4AF;
+}
+h4 {
+	color: #63096C;
+	
+	width: 100%;
+}
+.informacion img.derecha {
+	margin-left: 00em;
+}
+.derecha {
+	float: left;
+	height: 9em;
+	margin: 1em;
+	width: 200px;
+}
+.extension img.izquierda {
+	margin-right: 00em;
+}
+.izquierda {
+	float: right;
+	height: 9em;
+	margin: 1em;
+
+}
+.conclucion img.derecha {
+	margin-left: 00em;
+}
+.informacion, .extension, .conclucion {
+	float: left;
+	width: 100%;
+}
+.kusiwarmi>img {
+	display: inline;
+}
+h2{
+	text-align: center;
+}
