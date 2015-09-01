@@ -10,6 +10,10 @@
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	width: 791px;
+	}
+	div.cuadro{
+		width: 500px;
 	}
 	h1{
 		color:#63096C;
@@ -19,7 +23,7 @@
 		border: 1px solid ;
 	}
 	body{
-		background-color: #FF7C84;
+		background-color: #F9E5F2;
 		text-align: center;
 	}
 	.contenedor{
@@ -40,18 +44,22 @@
 	
 	h1{text-align: center;}
 
-	h2{text-align:left;color: #F4B8F9;}
+	h2{text-align:left;color: black;}
 	
 	body{color: black;background-color: ;padding: 22px 100px;}
 
-	h1{color: blue;}
+	h1{color: #2CFFFE;}
 
 	h2{color: none;}
 
-	div{background-color: #DA9F93;color: purple;}
+	div{background-color: #F9E3D2;color: #846F81;}
 
 	.img{text-align: center;}
 
-	body{background-color: #021913}
+	body{background-color: #F9E5F2}
+
+	.titulo img{
+		display: block; 
+		width: 791px;}
 
 </style>
