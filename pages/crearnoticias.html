@@ -10,7 +10,15 @@
 				<li><a href="#">telefonos</a></li>
 			</ul>
 		</div><br>
-	<link rel="stylesheet" type="text/css" href="../css/stilo.css">
+		<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="../bower_components/parse-js-sdk/lib/parse.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/stilo.css">	
+		<!-- js -->
+		<script src="../js/config.js"></script>
+		<script src="../js/common.js"></script>
+		<script src="../js/list.js"></script>
+		<script src="../js/main.js"></script>
+	
 
 	</head>
 	<body>
@@ -18,26 +26,26 @@
 		<div class="cuadro"><img src="../img/Picture2 (1).jpg"></div>
 		
 		<div class="img"><img src="../img/download.jpg"></div>
-		<i>
-			<form>
+	
+			<form  onsubmit="crearDenuncia(); return false;" method="POST">
 				<div class="contenedor">
 					<h5>TITULO</h5>
-					<input type="text">
+					<input type="text" name="denuncia_titulo", id="titulo">
 					<h5>FECHA</h5>
-					<input type="text">
+					<input type="text" name="denuncia_fecha" id="fecha">
 				</div>
 				<bottom>
 				</bottom>										
 				<div>
 					<h2>DENUNCIA</h1>
-					<textarea rows="4" cols="80">
+					<textarea rows="4" cols="80" name="denuncia" id="denuncia">
 					</textarea>		
 				</div>
 				<div class="cargar-imagenes">
-					<input name="imagen" type="file" id="imagen2" Value="enviar archivos">
-					<INPUT TYPE=SUBMIT NAME="Submit" id="Submit" Value="Enviar">	
+					<input name="imagen" type="file" id="denuncia_image_input" Value="enviar archivos">
+					<input type="submit" Value="Enviar">	
 				</div>
 			</form>
-		</i>
+
 	</body>
 </html>
