@@ -5,6 +5,7 @@
 		display: inline-block;
 		width: 40%
 	}
+	div{text-align: left;}
 	div>img{
 		display: block;
 	margin-left: auto;
@@ -73,7 +74,7 @@
 	padding:0;
 }
 #navi a {
-	color:skyblue;
+	color: #0E5F7F;
 	text-decoration: none;
 	padding: 0.5em;
 }

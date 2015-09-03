@@ -31,10 +31,10 @@ var aumentarListaDenuncias = function(caso) {
 	var titulo = caso.attributes.titulo;
 	var fecha = caso.attributes.fecha;
 	var denuncia = caso.attributes.contenido;
-
+/*
 	if (caso.attributes.image) {
 		itemContent += ' <img class="image image--small" src="' + caso.attributes.image._url + '">';
-	}
+	}*/
 
 	newItem.html(titulo);
 	newItem1.html(fecha);
